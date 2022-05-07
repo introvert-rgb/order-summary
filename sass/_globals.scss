@@ -28,9 +28,21 @@ body {
     }
 }
 
-@media only screen and (max-width:400px) {
+@media(max-width:400px) {
     .main-container {
         width: 300px;
+    }
+    .content-section {
+        .dis {
+            font-family: 'Red Hat Display', sans-serif;
+            width: 90%!important;
+            margin: 0 auto;
+        }
+        .section-1 {
+            h1 {
+                font-size: 1.2rem!important;
+            }
+        }
     }
 }
 
@@ -48,8 +60,7 @@ body {
         align-items: center;
         margin-bottom: 1.5em;
         h1 {
-            padding: 1.5em;
-            padding-bottom: 0.5em;
+            padding: 1em 0em;
             color: $darkBlue;
             font-size: 1.7rem;
             font-weight: 900;
@@ -120,7 +131,7 @@ body {
         border-radius: 10px;
         justify-content: center;
         overflow: hidden;
-        margin-bottom: 2.5em;
+        margin-bottom: 2em;
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
         button {
             width: 100%;
@@ -147,7 +158,7 @@ body {
     font-weight: 700;
     font-size: 0.9rem;
     cursor: pointer;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     transition: all 250ms ease-in-out;
     &:hover {
         color: $darkBlue;
