@@ -100,7 +100,6 @@ body {
   display: flex;
   border-radius: 10px;
   background: #f5f7ff;
-  padding: 1em;
   margin-bottom: 2.5em;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -192,7 +191,7 @@ body {
   color: #e0e8ff;
   font-weight: 600;
   font-size: 0.9rem;
-  padding: 1em 3em;
+  padding: 1em 2em;
   background: #3829e0;
   -webkit-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out;

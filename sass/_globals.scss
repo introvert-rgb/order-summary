@@ -76,7 +76,6 @@ body {
         display: flex;
         border-radius: 10px;
         background: $veryPaleBlue;
-        padding: 1em;
         margin-bottom: 2.5em;
         justify-content: space-between;
         align-items: center;
@@ -140,7 +139,7 @@ body {
             color: $paleBlue;
             font-weight: 600;
             font-size: 0.9rem;
-            padding: 1em 3em;
+            padding: 1em 2em;
             background: $brightBlue;
             transition: all 250ms ease-in-out;
             &:hover {
